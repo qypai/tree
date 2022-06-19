@@ -1,0 +1,459 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    font-size: 16px;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .phone p:nth-child(1) {
+        font-size: 10px!important;
+    }
+    .phone p:nth-child(2) {
+        font-size: 15px!important;
+    }
+    .phone {
+        /* width: 100%; */
+        /* text-align: center; */
+        margin-left: 40px!important;
+    }
+    .one .imgs {
+        margin-left: 180px!important;
+    }
+    html {
+        font-size: 12px!important;
+    }
+    body {
+        font-size: 12px;
+    }
+    .nav {
+        margin-left: 10rem!important;
+    }
+    .boxone {
+        width: 20rem!important;
+        height: 23rem !important;
+        margin-left: 2.4rem!important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .one .imgs {
+        margin-left: 10px!important;
+    }
+    /* .phone p:nth-child(1) {
+        font-size: 7px!important;
+    }
+    .phone p:nth-child(2) {
+        font-size: 12px!important;
+    } */
+    .nav {
+        margin-left: 20px!important;
+    }
+    html {
+        font-size: 10px!important;
+        height: 0;
+    }
+    body {
+        -webkit-transform: scale(0.5)
+    }
+    .login {
+        width: 200px!important;
+        margin-top: 30px!important;
+    }
+    .boxone {
+        width: 25rem!important;
+        height: 29rem !important;
+        margin-left: 4rem!important;
+    }
+    .shuru {
+        margin-bottom: 1.25rem;
+    }
+    .five {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav div {
+        width: 70px!important;
+        font-size: 10px!important;
+    }
+    html {
+        font-size: 8px!important;
+    }
+    .boxone {
+        width: 28rem!important;
+        height: 32rem !important;
+        margin-left: 5rem!important;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .nav div {
+        width: 70px!important;
+        font-size: 10px!important;
+    }
+    html {
+        font-size: 7px!important;
+    }
+    .middle input {
+        width: 150px!important;
+    }
+    .bottom button {
+        width: 150px!important;
+    }
+    .middle a {
+        /* font-size: .75rem; */
+        position: absolute;
+        top: 3.5rem;
+        left: 15.6rem!important;
+    }
+    .boxone {
+        width: 26rem!important;
+        height: 33rem !important;
+        margin-left: 4rem!important;
+    }
+}
+
+@media screen and (max-width:570px) {
+    html {
+        font-size: 7px!important;
+    }
+    .login {
+        background-color: white!important;
+        border-radius: 5px;
+        color: black!important;
+    }
+    .middle input {
+        border: 1px solid #ccc!important;
+    }
+    .boxone {
+        width: 26rem!important;
+        height: 30rem !important;
+        margin-left: 1rem!important;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .boxone {
+        width: 23rem!important;
+        height: 36rem !important;
+        margin-left: -2rem!important;
+    }
+}
+
+.container {
+    padding-right: -15px;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+/* 导航栏 */
+
+.one {
+    display: flex;
+    height: 60px;
+    /* background-color: pink; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.one .imgs {
+    width: 100px;
+    margin-left: 240px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.one img {
+    display: block;
+    max-width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13rem;
+}
+
+.nav div {
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.nav div:hover {
+    border-bottom: 2px solid greenyellow;
+}
+
+.phone {
+    /* width: 100%; */
+    text-align: center;
+    margin-left: 80px;
+}
+
+.phone img {
+    display: block;
+    max-width: 100%;
+}
+
+.phone p {
+    margin: 0;
+}
+
+.phone p:nth-child(1) {
+    font-size: 12px;
+}
+
+.phone p:nth-child(2) {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.two {
+    width: 100%;
+    height: 25rem;
+}
+
+.sencond {
+    height: 100%;
+    background: url(../images/蓝色背景.png) no-repeat;
+    background-size: cover;
+}
+
+
+/* 登录框 */
+
+.login {
+    margin: 3.5rem 0 0 6rem;
+    width: 20rem;
+    height: 18.75rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.top {
+    height: 4.375rem;
+    width: 100%;
+    text-align: center;
+    line-height: 4.375rem;
+}
+
+.top i {
+    margin: 0 0.6rem 0px .8rem;
+    padding-bottom: .125rem;
+}
+
+.top i:hover {
+    cursor: pointer;
+    border-bottom: 2px solid greenyellow
+}
+
+.middle {
+    position: relative;
+    width: 100%;
+    height: 6.4375rem;
+    text-align: center;
+}
+
+.middle input {
+    width: 14.375rem;
+    height: 2rem;
+    margin-bottom: 1.0625rem;
+    border-radius: .3125rem;
+    border: 0px;
+    outline: none;
+    padding-left: .5rem;
+}
+
+.middle a {
+    /* font-size: .75rem; */
+    position: absolute;
+    top: 3.5rem;
+    left: 11.9375rem;
+    text-decoration: none;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom button {
+    width: 14.375rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(139, 229, 139);
+    border-radius: 5px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+.bottom a {
+    color: rgb(235, 235, 125);
+}
+
+.title {
+    margin: 1rem 0 1.625rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 530;
+}
+
+.boxone {
+    position: relative;
+    width: 12rem;
+    height: 16rem;
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px gray;
+    margin: 0 0 .8rem 0.5rem;
+    text-align: center;
+}
+
+.boxone img {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: block;
+    text-align: center;
+    width: 30%;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+.content .pone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-52%, 0%);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.ptwo {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    padding: 0 .5rem 0 .5rem;
+    font-size: .75rem;
+}
+
+.four {
+    background-color: white;
+    height: 250px;
+}
+
+.keyword {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+}
+
+.shuru {
+    position: relative;
+    width: 100%;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.xingm {
+    position: absolute;
+    top: 6px;
+    left: 21px;
+    z-index: 99;
+}
+
+.anniu {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.zixun {
+    width: 230px;
+    height: 35px;
+    color: white;
+    background-color: coral;
+    border: 0;
+    border-radius: 3px;
+}
+
+.five {
+    background-color: rgba(0, 0, 0, .55);
+    height: 12rem;
+}
+
+.tree {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.erwei {
+    width: 20%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.bottomright {
+    font-size: .5625rem;
+    color: white;
+}
+
+.bmiddle {
+    color: white;
+    margin: 1.25rem 0 0 0;
+}
+
+.call {
+    font-size: .625rem;
+}
+
+.num {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.email {
+    font-size: .625rem;
+}
+
+.QQ {
+    margin-left: .625rem;
+}
+
+.tuan {
+    width: 30%;
+    margin-top: 1.25rem;
+}
